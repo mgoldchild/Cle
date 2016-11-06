@@ -61,8 +61,11 @@
 
 		// Carousel
 		$(".owl-carousel").owlCarousel({
-			items: 1,
-      loop: true
+      items: 1,
+      loop: true,
+      autoPlay : true,
+      pagination : true,
+      lazyLoad : true,
 		});
 
 		var owl = $('.owl-carousel');
