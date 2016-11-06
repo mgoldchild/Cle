@@ -9,5 +9,8 @@
     "gulp-zip": "^3.2.0",
     "minimatch": "^3.0.2",
     "sassdoc": "^2.1.20"
+  },
+  "scripts": {
+    "dev": "gulp cle"
   }
 }
