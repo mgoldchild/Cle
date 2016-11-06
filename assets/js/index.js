@@ -75,21 +75,9 @@
 	    owl.trigger('prev.owl.carousel', [600]);
 		});
 
-		// Search
-		$(".search-results").addClass("results-hide");
-		$("#search-field").ghostHunter({
-		    results: "#search-results",
-		    onKeyUp: true,
-		    displaySearchInfo: false,
-		    result_template : "<a href='{{link}}'><li class='list-group-item'>{{title}}<span>{{pubDate}}</span></li></a>",
-				before: function() {
-					$(".search-results").removeClass("results-hide");
-				}
-		});
-
     // Responsive video
     $(".post-content").fitVids();
-    
+
 	});
 
 	var mainHeader = $('.lp-auto-hide-header'),
