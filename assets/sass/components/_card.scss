@@ -22,13 +22,8 @@
     }
 
     .card-title {
-      position: absolute;
-      bottom: 15px;
-      left: 15px;
-      right: 15px;
-      color: $white;
       font-family: unquote(map-get($headingtype, font-family));
-      text-shadow: 0 2px 5px $text-shadow;
+	  font-weight: bold
     }
 
     .card-title-sub {
