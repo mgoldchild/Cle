@@ -11,6 +11,7 @@
     "sassdoc": "^2.1.20"
   },
   "scripts": {
-    "dev": "gulp cle"
+    "dev": "gulp cle",
+    "install": "gulp cle"
   }
 }
